@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <cmath>
+using namespace std;
+
+int main(int argc, char argv[]){
+    srand(time(0));
+    int vmax=atoi(argv[2]);
+    int tam=atoi(argv[1]);
+
+
+    int m1[tam][tam];
+    int m2[tam][tam];
+    int m3[tam][tam];//matriz resultado
+
+    //Inicializacion de matrices
+    for(int i=0; i<tam; i++){
+        for(int j=0; j<tam; j++){
+            m1[i][j]= rand() % vmax;
+            m2[i][j]= rand() % vmax;
+        }
+    }
+
+    
+
+    clock_t tini;
+    tini=clock();
+
+    //Multiplicacion
+    for(int i=0; i<tam; i++){
+        for(int j=0; j<tam; j++){
+
+            for(int k=0; k<tam; k++){
+                m3[i][j]+= m1[i][k] m2[k][j];
+            }
+        }
+    }
+
+    clock_t tfin;
+    tfin=clock();
+    cout << (tfin-tini)/(double)CLOCKS_PER_SEC << endl;
+    return 0;
+}
+
+
+

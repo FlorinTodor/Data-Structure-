@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 5. Juego de las Letras - Árbol para Diccionario"
+OUTPUT_DIRECTORY       = /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras/doc_doxygen/
+INPUT                  = /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras/estudiante/include /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras/estudiante/src /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras/estudiante/doc
+EXTRACT_PRIVATE	       = NO

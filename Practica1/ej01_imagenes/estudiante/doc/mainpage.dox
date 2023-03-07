@@ -1,0 +1,106 @@
+/*! \mainpage Práctica 1 - Abstracción. TDA Imagen
+
+@image html ugr.png 
+
+# Introducción
+
+<h3> Estudiantes del grupo A2 de Estructura de Datos 2022-2023 </h3> 
+<h4>Estudiante_1: </h4> Florin Emanuel Todor
+
+
+
+<h4>Estudiante_2: </h4> José Antonio Villarejo Caballero
+
+
+
+# Ejecutables
+
+@image html invert.png
+## Negativo:
+
+Calcula el negativo de una imagen
+
+> __negativo__ \<FichImagenOriginal\> \<FichImagenDestino\>
+@param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+
+
+@image html subimagen.png
+## Subimagen:
+
+Genera, por copia, una imagen PGM a partir de otra imagen PGM.
+
+
+> __subimagen__ \<fich_orig\> \<fich_rdo\> \<fila\> \<col\> \<filas_sub\> \<col_subl\>
+
+@param <fich_orig>  es el nombre del fichero que contiene la imagen original.
+@param <fich_rdo> es el nombre del fichero que contendrá la subimagen resultado.
+@param <fila> especifica la fila de la coordena de la esquina superior izquierda de la imagen a extraer
+@param <col> especifica la columna de la coordenada (sobre la imagen original) de la esquina superior izquierda de la subimagen que se va a extraer.
+@param <filas_sub> indica el número de filas de la subimagen que se va a extraer.
+@param <col_subl> indica el número de columnas de la subimagen que se va a extraer.
+@post  La imagen generada será, necesariamente, de un tamaño menor o igual que la original.
+
+@image html zoom_pub.png
+## Zoom:
+
+Genera, por copia, una imagen con Zoom 2X de una porción de la imagen mediante un proceso de interpolación
+
+> __zoom__ \<fich_orig>\> \<fich_rdo\> \<fila\> \<col\> \<lado\>
+
+@param<fich_orig> es el nombre del fichero que contiene la imagen original y
+@param<fich_rdo> es el nombre del fichero que contendrá el resultado del zoom.
+@param <fila> especifica la coordenada de la fila (sobre la imagen original) de la esquina superior izquierda
+de la subimagen que se va a extraer.
+@param <col> especifica la coordenada de la columna(sobre la imagen original) de la esquina superior izquierda
+de la subimagen que se va a extraer.
+@param<lado> tamaño del lado del cuadrado. El cuadrado descrito debe estar totalmente incluído en la
+imagen.
+
+@image html icono_pub.png
+## Icono:
+Genera una imagen de un tamaño reducido a partir de una imagen original.
+
+> __icono__ \<fich_orig>\> \<fich_rdo\> \<factor\>
+
+@param<fich_orig> es el nombre del fichero que contiene la imagen original y
+@param<fich_rdo> es el nombre del fichero que contendrá el resultado del icono.
+@param <factor> Factor de reducción de la imagen original con respecto al icono.
+@pre factor debe de ser mayor que 0 (factor > 0)
+@post La imagen no se modifica
+@post La imagen resultante tendrá tamaño int(filas/factor) X int (columnas/factor). Descartando los decimales de la división.
+
+@image html contraste_pub.png
+## Contraste:
+Genera una imagen de niveles de gris con más contraste que la imagen original. 
+
+> __contraste__ \<fich_orig>\> \<in1\>  \<in2\>  \<out1\>  \<out2\>
+
+@param <in1> Umbral inferior de la imagen de entrada
+@param <in2> Umbral superior de la imagen de entrada
+@param <out1> Umbral inferior de la imagen de salida
+@param <out2> Umbral inferior de la imagen de salida
+@pre 0<=(in1,in2,out1,out2)<=255 , in1 < in2, out1 < out2
+@post El objeto que llama a la función es modificado.
+
+
+
+@image html grafica1.png
+
+Esta gráfica está realizada a través de la acumulación de todos los valores, para mostrar que es una
+gráfica creciente.
+
+
+Esta primera gráfica nos muestra que la primera implementación que teníamos hecha para el
+proyecto, nos da una eficiencia cuadrática.
+
+
+Por otro lado, con la segunda implementación, nos debería de salir una eficiencia lineal.
+
+
+No hemos podido terminar el proyecto por falta de tiempo, únicamente nos faltaba el método Suffle
+con la segunda implementación para poder realizar el estudio de la eficiencia y hacer la
+comparación entre la eficiencia de ambas implementaciones.
+
+
+*/

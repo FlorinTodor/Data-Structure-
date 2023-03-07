@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 2. Pilas y Colas"
+OUTPUT_DIRECTORY       = /home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/doc_doxygen/
+INPUT                  = /home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/estudiante/include /home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/estudiante/src /home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/estudiante/doc
+EXTRACT_PRIVATE	       = NO

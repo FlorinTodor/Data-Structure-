@@ -1,0 +1,99 @@
+/*! \mainpage Práctica 3. Contenedores no lineales - Juego de las Letras
+
+@image html ugr.png
+
+# Introducción
+En esta práctica nos centraremos en el juego conocido como cifras y letras. Nos centraremos de momento en la prueba de las letras.
+
+Esta parte del juego consiste en formar la mejor palabra posible (dependiendo de uno de los dos criterios que explicamos a continuación) a partir de un conjunto de letras extraídas al azar de una bolsa. 
+
+En esta práctica  construiremos las estructuras de datos adecuadas para resolver el problema de las letras, así como programas que nos permitan obtener la solución a una partida.
+
+
+Estaremos especialmente interesados en dar una buena solución al problema de las letras.
+
+
+	
+@author Alumnos grupo A2 ED 2022-2023
+@author Florin Emanuel Todor
+@author José Antonio Villarejo Caballero
+@date Noviembre 2022
+
+
+# Ejecutables
+
+
+
+## Conjunto_letras.cpp
+
+Programa de prueba de LettersSet, calcula la puntuación de una palabra.
+
+
+@image html foto_conjunto_letras.png
+
+> __conjunto_letras__ \<Ruta_informacion_conjunto_letras\> \<Palabra_calcular\>
+
+@param "<Ruta_informacion_conjunto_letras>" Archivo pasado como parámetro para crear un objeto LettersSet
+@param "<Palabra_calcular>" Palabra a la que calcular su puntuación
+@return Imprime por pantalla la puntuación de la palabra dada por parámetro
+
+
+
+## Bolsa.cpp
+
+Programa de prueba del template Bag.
+
+@image html foto_bolsa.png
+
+> __bolsa__ \<char_eleccion\> \<archivo_informacion>
+
+@param "<char_eleccion>" char que indica si se va a crear una bolsa de enteros(I) o de string(C)
+@param "<archivo_informacion>" Archivo con una lista de enteros o de char según corresponda
+@return Imprime por pantalla los elementos de la bolsa de forma aleatoria
+
+
+
+## Bolsa_letras.cpp
+
+Programa de prueba del TDA LettersBag.
+
+@image html foto_bolsa_letras.png
+
+> __bolsa_letras__ \<archivo_informacion\>
+
+@details crea un objeto del TDA LettersBag a partir de un objeto del TDA LettersSet
+@param "<archivo_informacion>" archivo con información para rellenar un objeto del TDA LettersSet
+@return Imprime por pantalla de forma aleatoria todas las letras del objeto LettersBag creado
+
+
+
+## Palabras_longitud.cpp
+
+Busca en el diccionario introducido por parámetro, las palabras que sean de la longitud dada por otro parámetro.
+@image html foto_palabras_longitud.png
+
+> __palabras_longitud__ \<diccionario\> \<longitud\>
+
+
+@param "<diccionario>" Fichero de palabras introducido como primer parámetro
+@param "<longitud>" longitud dada para buscar las palabras
+@return Imprime por pantalla las palabras del diccionario  que sean de la longitud pedida
+
+
+
+## Cantidad_letras.cpp
+
+Cuenta en el diccionario introducido por parámetro, las ocurrencias y la frecuencia relativa, de cada letra de un fichero de palabras introducido también por parámetro.
+
+@image html foto_cantidad_letras.png
+
+> __cantidad_letras__ \<diccionario\> \<letras\>
+
+
+@param "<diccionario>" Fichero de palabras introducido como primer parámetro
+@param "<letras>" Fichero de letras introducido como segundo parámetro
+@return Imprime por pantalla el número de ocurrencias y la frecuencia relativa, de cada letra del fichero de letras en el diccionario
+
+
+
+*/

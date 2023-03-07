@@ -1,0 +1,4 @@
+Cannot generate into /home/flo/Desktop/ED/practicas/tercera_practica/ej03_tdas_letras
+It is already used for project /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras
+
+Please either delete it manually or select another generation directory

@@ -1,0 +1,5 @@
+/snap/clion/222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras -B /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras
+Doxygen build started
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/flo/Desktop/UNIVERSIDAD/2ANIO/1ºCUatri/ED/ED/practica4/ej04_juego_letras

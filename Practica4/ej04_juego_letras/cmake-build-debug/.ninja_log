@@ -1,0 +1,11 @@
+# ninja log v5
+0	252	1672669709723438174	CMakeFiles/diccionario.dir/estudiante/src/dictionary.cpp.o	e73349145b5b3204
+0	215	1672669709687438256	CMakeFiles/diccionario.dir/estudiante/src/diccionario.cpp.o	43c2a353d0addfe0
+252	289	1672669709759438092	diccionario	dad07ad2e55acee0
+0	57	1672670399979461505	build.ninja	a927724696dc302
+0	260	1672670400243461908	CMakeFiles/partida_letras.dir/estudiante/src/dictionary.cpp.o	c05ad0dfb9ed0eb3
+0	307	1672670400291461981	CMakeFiles/partida_letras.dir/estudiante/src/letters_set.cpp.o	38b6b11c175ff74e
+0	338	1672670400323462030	CMakeFiles/partida_letras.dir/estudiante/src/solver.cpp.o	4b126f2887869688
+1	294	1672670531755683413	CMakeFiles/partida_letras.dir/estudiante/src/letters_bag.cpp.o	b7013e8024c87920
+1	307	1672670531767683435	CMakeFiles/partida_letras.dir/estudiante/src/partida_letras.cpp.o	8c6b89a370d6686e
+307	365	1672670531827683544	partida_letras	ad4d38bc342f32e9

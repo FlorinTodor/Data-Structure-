@@ -1,0 +1,38 @@
+/*! \mainpage 
+@image html Portada.png
+
+# Introducción
+
+Practica basada en la implementación de una cola a través de una pila (MaxQueue) y de una pila a través de una cola (MaxStack). Además de la implementación se guarda en cada elemento de la pila o la cola el maximo existente hasta dicho elemento.
+	
+@author Alumnos grupo A2 ED 2022-2023
+@author Florin Emanuel Todor
+@author José Antonio Villarejo Caballero
+@date Octubre 2022
+
+
+
+# Ejecutables
+
+## pila_max
+
+Uso de una pila MaxStack
+
+> __pila_max__ \<Valores_introducidos\>
+@param "<Valores_Introducidos>" Se introduce valores enteros para guardar en la pila, con dichos valores se hace los máximos
+
+## cola_max
+
+Uso de una cola MaxQueue
+
+> __cola_maxqueue__ \<Valores_introducidos\>
+@param "<Valores_Introducidos>" Se introduce valores enteros para guardar en la pila, con dichos valores se hace los máximos
+
+
+
+
+
+
+
+
+*/

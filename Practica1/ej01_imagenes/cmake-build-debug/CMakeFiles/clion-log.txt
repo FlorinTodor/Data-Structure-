@@ -1,0 +1,4 @@
+Cannot generate into /home/flo/Desktop/ED/primera_practica/ej01_imagenes
+It is already used for project /home/flo/Desktop/ED/ej01_imagenes
+
+Please either delete it manually or select another generation directory

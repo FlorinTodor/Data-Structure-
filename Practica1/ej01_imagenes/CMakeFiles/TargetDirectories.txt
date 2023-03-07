@@ -1,0 +1,10 @@
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/image.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/negativo.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/subimagen.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/zoom.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/icono.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/contraste.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/barajar.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/doc_doxygen.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/edit_cache.dir
+/home/flo/Desktop/ED/ej01_imagenes/CMakeFiles/rebuild_cache.dir

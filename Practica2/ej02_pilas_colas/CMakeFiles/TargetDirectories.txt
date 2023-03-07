@@ -1,0 +1,7 @@
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/maxstack.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/maxqueue.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/pila_max.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/cola_max.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/doc_doxygen.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/edit_cache.dir
+/home/flo/Desktop/ED/segunda_practica/ej02_pilas_colas/CMakeFiles/rebuild_cache.dir

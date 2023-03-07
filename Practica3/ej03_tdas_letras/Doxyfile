@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 3. Contenedores no lineales - Juego de las Letras"
+OUTPUT_DIRECTORY       = /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras/doc_doxygen/
+INPUT                  = /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras/estudiante/include /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras/estudiante/src /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/flo/Desktop/ED/tercera_practica/ej03_tdas_letras/estudiante/doc
+EXTRACT_PRIVATE	       = NO

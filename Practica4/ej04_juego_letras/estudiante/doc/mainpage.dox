@@ -1,0 +1,72 @@
+/*! \mainpage Práctica 5: Estructura de árbol para el diccionario y Solver
+
+
+@image html ugr.png
+
+
+# Introducción
+
+
+En esta práctica retomaremos el juego de las letras, manejando una estructura de datos alternativa
+para tratar de dar una solución más eficiente al mismo.
+
+En esta práctica modificaremos la implementación del TDA Dictionary de la práctica anterior
+utilizando como contenedor subyacente un árbol LCRS (Left-Child Right-Sibling). De esta forma,
+podremos almacenar nuestro diccionario con menos espacio y crear un solver más eficiente.
+
+@image html arbol.png
+	
+@author Alumnos grupo A2 ED 2022-2023
+@author Florin Emanuel Todor
+@author José Antonio Villarejo Caballero
+@date Noviembre 2022
+
+
+# Ejecutables
+
+
+
+## diccionario.cpp
+
+Creación y uso de un iterador que nos permita visitar las palabras del árbol por orden alfabético
+
+
+Para comprobar el funcionamiento correcto del iterador implementado, se proporciona
+implementado el archivo diccionario.cpp. El funcionamiento de este archivo es simple:
+
+-Se carga el contenido del archivo que se pasa como argumento en un diccionario con
+estructura de árbol
+
+-Se recorre el diccionario creado con un iterador, y se imprimen por pantalla todas sus
+palabras
+
+
+## cantidad_letras.cpp
+
+Para comprobar el funcionamiento correcto de las funciones de conteo de letras implementadas (tanto para el número de ocurrencias como para el uso).
+
+Por lo tanto este archivo calculará el número de veces que se usa esa letra y el número de ocurrencias de la letra en la estructura de diccionario (Dictionary)
+
+> __cantidad_letras__ \<fichero_diccionario\> \<fichero_letras>
+
+
+## partida_letras.cpp
+Para probar el funcionamiento de nuestro TDA, vamos a implementar un programa que recibirá
+cuatro argumentos:
+
+> __partida_letras__ \<fichero_diccionario\> \<fichero_letras> \<modo_de_juego> \<cantidad_letras>
+
+Dicho programa va a resolver una partida, ya sea a través del modo de puntuación o modo de longitud, el cual se indica en el argumento de modo_de_juego. 
+Por último, se muestra por pantalla el resultado.
+@image html ejemplo.png
+
+
+
+
+
+
+
+
+
+
+*/

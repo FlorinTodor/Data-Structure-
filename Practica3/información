@@ -1,0 +1,40 @@
+Debemos de tener en cuenta que cada letra tiene una puntuación asociada, y la puntuación de la palabra será la suma de las puntuaciones de cada
+una de sus letras.
+
+Debemos de tener cuenta que vamos a jugar con una bolsa, la cual contiene las diferentes letras y las veces que se puede repetir cada letra, además de su puntuación.
+
+Por lo tanto para cada letra del abecedario se debe de guardar su puntuación, y el número de repeticiones disponible
+
+Lo llamaremos letras.txt.
+
+Vamos a crear una estructura de datos para almacenar dicha información , que se denominará Conjunto de Letras TDA LettersSet
+
+Además, como hemos dicho que necesitaremos extraer letras aleatorias para una partida, utilizando
+para ello las repeticiones de letras.txt, construiremos también un contenedor específico para
+ello. Dicho contenedor será capaz de leer un Conjunto de Letras con las repeticiones de cada unade las letras del juego, y crear la bolsa de la que haremos las extracciones aleatorias. Este TDA se
+denominará Bolsa de Letras (TDA LettersBag)
+
+
+Para temrinar, como vamos a jugar con palabras, debemos de crear un diccionario con las posibles palabras, para poder consultar el listado de palabras.
+
+VAmos a utilizar contenedores no lineales, map and set
+
+CLave y valor.
+
+La clase set representa un conjunto de elementos ordenados y en el que no se repiten elementos, en este caso el valor es siempre nulo.
+LOs datos que insertemos en set se llaman claves.
+si insertamos 3,5,1 . se va a colocar 1,3,5.
+
+Una estructura de tipo set deberá contar, como mínimo, con los siguientes métodos para su
+correcto funcionamiento:
+- Tamaño: size()
+- Vacío: empty()
+- Borrar: erase()
+- Vaciar: clear()
+- Insertar: insert()
+- Buscar: find()
+- Iterador inicio: begin()
+- Iterador fin: end()
+
+
+
